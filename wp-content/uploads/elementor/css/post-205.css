@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&display=swap');
+.elementor-205 .elementor-element.elementor-element-fd6626a:not(.elementor-motion-effects-element-type-background),
+.elementor-205 .elementor-element.elementor-element-fd6626a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000000;
+    top: 0;
+}
+
+.elementor-205 .elementor-element.elementor-element-fd6626a {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-205 .elementor-element.elementor-element-fd6626a>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-205 .elementor-element.elementor-element-aa6f2b9:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-205 .elementor-element.elementor-element-aa6f2b9>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000000;
+}
+
+.elementor-205 .elementor-element.elementor-element-aa6f2b9>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-205 .elementor-element.elementor-element-aa6f2b9>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-205 .elementor-element.elementor-element-2fe39af>.elementor-container {
+    max-width: 1600px;
+}
+
+.elementor-205 .elementor-element.elementor-element-c7afc08.elementor-column>.elementor-widget-wrap {
+    justify-content: center;
+}
+
+.elementor-205 .elementor-element.elementor-element-c7afc08:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-205 .elementor-element.elementor-element-c7afc08>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000000;
+}
+
+.elementor-205 .elementor-element.elementor-element-c7afc08>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-205 .elementor-element.elementor-element-c7afc08>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-205 .elementor-element.elementor-element-3f7841a img {
+    width: 25%;
+}
+
+.elementor-205 .elementor-element.elementor-element-f56aba1 {
+    text-align: center;
+}
+
+.elementor-205 .elementor-element.elementor-element-f56aba1 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: 'Josefin Slab', serif;
+    font-size: 43px;
+    font-weight: 400;
+}
+
+.elementor-205 .elementor-element.elementor-element-4768c11 .elementor-button {
+    font-family: 'Josefin Slab', serif;
+    font-size: 85px;
+    font-weight: 600;
+    fill: #FFFFFF;
+    color: #000000;
+    background-color: #38ff01;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-205 .elementor-element.elementor-element-4768c11>.elementor-widget-container {
+    margin: 5px 30px 5px 30px;
+}
+
+.elementor-205 .elementor-element.elementor-element-4768c11 {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-205 .elementor-element.elementor-element-e4ed26a .elementor-button {
+    font-family: 'Josefin Slab', serif;
+    font-size: 85px;
+    font-weight: 600;
+    fill: #FFFFFF;
+    color: #000000;
+    background-color: #d1ff03;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-205 .elementor-element.elementor-element-e4ed26a>.elementor-widget-container {
+    margin: 5px 30px 5px 30px;
+}
+
+.elementor-205 .elementor-element.elementor-element-e4ed26a {
+    width: auto;
+    max-width: auto;
+}
+
+#elementor-popup-modal-205 .dialog-message {
+    width: 640px;
+    height: auto;
+}
+
+#elementor-popup-modal-205 {
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#elementor-popup-modal-205 .dialog-widget-content {
+    box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width:1024px) {
+    .elementor-205 .elementor-element.elementor-element-f56aba1 .elementor-heading-title {
+        font-size: 47px;
+    }
+    .elementor-205 .elementor-element.elementor-element-4768c11 .elementor-button {
+        font-size: 49px;
+    }
+    .elementor-205 .elementor-element.elementor-element-e4ed26a .elementor-button {
+        font-size: 49px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-205 .elementor-element.elementor-element-3f7841a img {
+        width: 44%;
+    }
+    .elementor-205 .elementor-element.elementor-element-f56aba1 .elementor-heading-title {
+        font-size: 39px;
+    }
+    .elementor-205 .elementor-element.elementor-element-4768c11 .elementor-button {
+        font-size: 28px;
+    }
+    .elementor-205 .elementor-element.elementor-element-4768c11>.elementor-widget-container {
+        margin: 5px 5px 5px 5px;
+    }
+    .elementor-205 .elementor-element.elementor-element-e4ed26a .elementor-button {
+        font-size: 28px;
+    }
+    .elementor-205 .elementor-element.elementor-element-e4ed26a>.elementor-widget-container {
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+/* Start custom CSS for heading, class: .elementor-element-f56aba1 */
+
+.shake {
+    animation: myAnim 0.1s linear 0s infinite
+}
+
+.shake {
+    transform-origin: center;
+    display: inline-block;
+}
+
+@keyframes myAnim {
+    100% {
+        transform: rotate(360deg) translateX(10px) rotate(-360deg);
+    }
+    0% {
+        transform: rotate(0deg) translateX(10px) rotate(0deg);
+    }
+}
+
+/* End custom CSS */
+
+/* Start custom CSS for button, class: .elementor-element-4768c11 */
+
+.crazy5 {
+    animation: crazyAnim5 0.1s linear 0s infinite
+}
+
+.crazy5 {
+    transform-origin: center;
+    display: inline-block;
+}
+
+@keyframes crazyAnim5 {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(5px, 5px) rotate(5deg);
+    }
+    50% {
+        transform: translate(0, 0) rotate(0eg);
+    }
+    75% {
+        transform: translate(-5px, 5px) rotate(-5deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+
+}
+
+/* End custom CSS */
+
+/* Start custom CSS for button, class: .elementor-element-e4ed26a */
+
+.crazy5 {
+    animation: crazyAnim5 0.1s linear 0s infinite
+}
+
+.crazy5 {
+    transform-origin: center;
+    display: inline-block;
+}
+
+@keyframes crazyAnim5 {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(5px, 5px) rotate(5deg);
+    }
+    50% {
+        transform: translate(0, 0) rotate(0eg);
+    }
+    75% {
+        transform: translate(-5px, 5px) rotate(-5deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+
+}
+
+/* End custom CSS */

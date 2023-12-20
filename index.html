@@ -7,6 +7,67 @@
 
     <title>lothoffshowbobandvagene42069inu</title>
 
+    <!-- modal css -->
+    <style type="text/css">
+      .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 99999;
+        border-radius: 10px;
+      }
+
+      .mod_content {
+        background-color: #131740;
+        width: 400px;
+        margin: 100px auto;
+        padding: 40px;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      /* Hide the modal when not displayed */
+      .hidden {
+        display: none;
+      }
+
+      #yesButton {
+        padding: 8px 28px;
+        margin-right: 15px;
+        outline: none;
+        border: none;
+        background-color: #fff420;
+        color: black;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+      #noButton {
+        padding: 8px 28px;
+        outline: none;
+        border: none;
+        background-color: #fff420;
+        color: black;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+      .faq_inner .card-header h4 button::before {
+        display: none !important;
+      }
+
+      @media screen and (max-width: 768px) {
+        .mod_content {
+          width: 95%;
+        }
+        .mob_space {
+          margin-top: 50px;
+        }
+      }
+    </style>
+
     <script>
       window._wpemojiSettings = {
         baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1565,6 +1626,73 @@
         </filter>
       </defs>
     </svg>
+    <!-- modal section -->
+    <div id="myModal" class="modal">
+      <div class="mod_content" style="background-color: #131740">
+        <p style="color: #fff; font-size: 17px">
+          Are you ready to explore Alice's Wonderland ?
+        </p>
+        <div
+          style="
+            text-align: center;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <img
+            src="./degen/11.gif"
+            style="width: 400px; margin: 20px 0"
+            alt=""
+          />
+        </div>
+        <div
+          class="flex_dis"
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <button id="yesButton">Yes</button>
+          <button id="noButton">No</button>
+        </div>
+      </div>
+    </div>
+    <audio style="opacity: 1" id="closingAudio" src="./bobs.mp3"></audio>
+    <script>
+      window.onload = function () {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+
+        // Close the modal when clicking outside of it
+        window.onclick = function (event) {
+          var closeButton = document.getElementById("closeModal");
+          var closingAudio = document.getElementById("closingAudio");
+
+          const yesButton = document.getElementById("yesButton");
+          const noButton = document.getElementById("noButton");
+
+          if (yesButton) {
+            modal.style.display = "none";
+            closingAudio.play();
+          } else {
+            if (noButton) {
+              modal.style.display = "none";
+              closingAudio.play();
+            }
+          }
+
+          // yesButton.addEventListener("click", function () {
+          //   modal.style.display = "none";
+          //   closingAudio.play();
+          // });
+
+          // // Hide the modal when "No" is clicked
+          // noButton.addEventListener("click", function () {
+          //   modal.style.display = "none";
+          // });
+        };
+      };
+    </script>
+
     <div
       style="animation: 2s infinite !important"
       data-elementor-type="wp-page"
